@@ -19,6 +19,9 @@ body main{
     transition: all 0.2s ease-in-out 0.5s;
     box-shadow: 0 7px 10px 0 rgb(190, 190, 190);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .livros a button{
     color: rgb(250, 250, 250);
@@ -61,3 +64,66 @@ body main{
 #livro :hover{
     transform: scale(1.05);
 }
+
+main .login-bibliotecaSenai{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(8, 83, 194);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+
+.login-bibliotecaSenai input{ 
+        padding: 15px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        border-radius: 4px;
+        transition: all linear 160ms;
+        outline: none;   
+}
+.login-bibliotecaSenai input:hover{
+    border: 2px solid #f72585;
+}
+.login-bibliotecaSenai p{
+    display: inline-block;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.login-bibliotecaSenai h1{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+.result {
+    font-size: 14px;
+    font-weight: 600;
+    border: none ;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0;
+}
+.result:hover {
+    transform: scale(1.05);
+    background-color: #15ff00;
+
+}
+#biblioteca {
+    border: 1px #c0c0c0 solid;
+    width: 100%;
+  }
+#biblioteca th {
+    background-color: #00f;
+    color: #fff;
+  }
+#biblioteca td {
+    background-color: #f0f0f0;
+    color: #0c0c0c;
+  }
